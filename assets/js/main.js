@@ -42,10 +42,10 @@
 
                     // effect: 'fade',
                     effect: "creative",
-                    speed: 500,
+                    speed: 1000,
 
                     autoplay: {
-                        delay: 1500,
+                        delay: 2500,
                     },
                     pagination: {
                         el: ".swiper-pagination",
@@ -55,9 +55,6 @@
                         nextEl: ".swiper-button-next",
                         prevEl: ".swiper-button-prev",
                     },
-
-
-
                     creativeEffect: {
                         prev: {
                             shadow: true,
@@ -269,7 +266,10 @@
 
 
 
-    // menu area start
+
+
+
+    // mobile menu menu area start
     $(document).on('click', '#menu-btn', function () {
         $("#side-bar").addClass("show");
         $("#anywhere-home").addClass("bgshow");

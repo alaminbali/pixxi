@@ -1,0 +1,104 @@
+// dark version style hear
+
+.dark-version{
+    background: #000;
+
+
+    // button style
+    .rts-btn.btn-main {
+        background: #ffffff;
+        color: #0D0D0D;
+    }
+
+
+    
+    .header-one {
+        background: #2d2d2d;
+    }
+    .banner-image-one {
+        background: #151515;
+    }
+    nav.main-nav ul li a{
+        color: #fff;
+    }
+    .banner-inner-one h1.title{
+        color: #fff;
+    }
+    .banner-inner-one span.pre-title{
+        color: #ffff;
+    }
+    .banner-inner-one p.disc{
+        color: #fff !important;
+    }
+    .shape-images-banner-one .one {
+        opacity: 0.02;
+    }
+    .shape-images-banner-one .two {
+        opacity: 0.015;
+    }
+    .shape-images-banner-one .three {
+        opacity: .02;
+    }
+    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+        color: #fff;
+    }
+    .title-area-main-left span.pre-title{
+        color: #e4e4e4;
+    }
+    p{
+        color: #c3c3c3;
+    }
+    // bg shape home one url
+
+    .light-bg-inner-wrapper {
+        background-image: url(../images/bg/bg-body-lg-dark.png);
+    }
+    .single-blog-area-one a.thumbnail {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .single-blog-area-one .inner-content {
+        background: #0d0d0d;
+        box-shadow: 0px 10px 33px rgb(0 0 0 / 4%);
+        border-radius: 0 0 10px 10px;
+    }
+
+    .portfolio-wrapper-one {
+        background: #0d0d0d;
+    }
+
+    // modal background
+    .modal-style-one .modal-dialog .modal-content{
+        background: #181818;
+    }
+
+    // COLOR WHITE HEAR
+
+    .experience-one-inner .experience-right .icon i {
+        border: 1px solid #888888;
+        color: #ffffff;
+        background: #000;
+    }
+
+
+    .experience-one-inner .experience-left .end .title,
+    .experience-one-inner .experience-left .start p,
+    .main-testimonials .review-area p.disc,
+    .main-testimonials .review-area .full-deg span.degic,
+    .modal-style-one .modal-dialog .modal-content .modal-body form label{
+        color: #fff;
+    }
+
+    // service area dark version
+
+    .service-one-bg {
+        background-image: url(../images/service/bg-dark-01.png);
+    }
+
+    // background color black Hear
+    .single-service,
+    .modal-style-one .modal-dialog .modal-content .modal-body form textarea,
+    .modal-style-one .modal-dialog .modal-content .modal-body form input {
+        background: #000000;
+    }
+}

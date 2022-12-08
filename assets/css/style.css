@@ -15058,7 +15058,7 @@ ul#mobile-menu-active {
 .title-area-main-center span.pre-title {
   text-transform: uppercase;
   position: relative;
-  color: #74787C;
+  color: #ffffff;
 }
 .title-area-main-center span.pre-title::after {
   position: absolute;
@@ -15733,6 +15733,87 @@ ul#mobile-menu-active {
     margin: 18.75rem auto !important;
   }
 }
+.dark-version {
+  background: #000;
+}
+.dark-version .rts-btn.btn-main {
+  background: #ffffff;
+  color: #0D0D0D;
+}
+.dark-version .header-one {
+  background: #2d2d2d;
+}
+.dark-version .banner-image-one {
+  background: #151515;
+}
+.dark-version nav.main-nav ul li a {
+  color: #fff;
+}
+.dark-version .banner-inner-one h1.title {
+  color: #fff;
+}
+.dark-version .banner-inner-one span.pre-title {
+  color: #ffff;
+}
+.dark-version .banner-inner-one p.disc {
+  color: #fff !important;
+}
+.dark-version .shape-images-banner-one .one {
+  opacity: 0.02;
+}
+.dark-version .shape-images-banner-one .two {
+  opacity: 0.015;
+}
+.dark-version .shape-images-banner-one .three {
+  opacity: 0.02;
+}
+.dark-version h1, .dark-version h2, .dark-version h3, .dark-version h4, .dark-version h5, .dark-version h6, .dark-version .h1, .dark-version .h2, .dark-version .h3, .dark-version .h4, .dark-version .h5, .dark-version .h6 {
+  color: #fff;
+}
+.dark-version .title-area-main-left span.pre-title {
+  color: #e4e4e4;
+}
+.dark-version p {
+  color: #c3c3c3;
+}
+.dark-version .light-bg-inner-wrapper {
+  background-image: url(../images/bg/bg-body-lg-dark.png);
+}
+.dark-version .single-blog-area-one a.thumbnail {
+  border-radius: 10px 10px 0 0;
+}
+.dark-version .single-blog-area-one .inner-content {
+  background: #0d0d0d;
+  box-shadow: 0px 10px 33px rgba(0, 0, 0, 0.04);
+  border-radius: 0 0 10px 10px;
+}
+.dark-version .portfolio-wrapper-one {
+  background: #0d0d0d;
+}
+.dark-version .modal-style-one .modal-dialog .modal-content {
+  background: #181818;
+}
+.dark-version .experience-one-inner .experience-right .icon i {
+  border: 1px solid #888888;
+  color: #ffffff;
+  background: #000;
+}
+.dark-version .experience-one-inner .experience-left .end .title,
+.dark-version .experience-one-inner .experience-left .start p,
+.dark-version .main-testimonials .review-area p.disc,
+.dark-version .main-testimonials .review-area .full-deg span.degic,
+.dark-version .modal-style-one .modal-dialog .modal-content .modal-body form label {
+  color: #fff;
+}
+.dark-version .service-one-bg {
+  background-image: url(../images/service/bg-dark-01.png);
+}
+.dark-version .single-service,
+.dark-version .modal-style-one .modal-dialog .modal-content .modal-body form textarea,
+.dark-version .modal-style-one .modal-dialog .modal-content .modal-body form input {
+  background: #000000;
+}
+
 /* Footer area style  */
 .footer-one-bg {
   background: #0D0D0D;
