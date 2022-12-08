@@ -253,7 +253,7 @@
         },
 
         smoothScroll: function (e) {
-            $(document).on('click', '.onepage a[href^="#"]', function (event) {
+            $(document).on('click', '.onepage .main-nav a[href^="#"]', function (event) {
               event.preventDefault();
           
               $('html, body').animate({

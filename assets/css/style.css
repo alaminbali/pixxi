@@ -15667,8 +15667,15 @@ ul#mobile-menu-active {
   color: var(--color-primary-2);
 }
 
+body.modal-open {
+  padding-right: 0 !important;
+}
+
 .modal-style-one {
   background: #000000e3 !important;
+}
+.modal-style-one::-webkit-scrollbar {
+  display: none;
 }
 .modal-style-one .modal-dialog .modal-content {
   border-radius: 5px;
@@ -15735,6 +15742,9 @@ ul#mobile-menu-active {
 }
 .dark-version {
   background: #000;
+}
+.dark-version .modal-style-one {
+  background: #000000f5 !important;
 }
 .dark-version .rts-btn.btn-main {
   background: #ffffff;

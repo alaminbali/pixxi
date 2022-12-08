@@ -1,7 +1,16 @@
 // modal style hear
 
+body{
+    &.modal-open{
+        padding-right: 0 !important;
+    }
+}
+
 .modal-style-one{
     background: #000000e3 !important;
+    &::-webkit-scrollbar {
+        display: none;
+    }
     .modal-dialog{
         .modal-content{
             border-radius: 5px;
