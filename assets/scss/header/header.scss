@@ -1,0 +1,45 @@
+
+
+// header one style hear
+
+.header-one{
+    background: #EFEFE8;
+    a{
+        &.thumbnail{
+            display: flex;
+            align-items: center;
+            img{
+                padding: 15px 0; 
+                @media #{$smlg-device} {
+                    padding: 25px 0;
+                }
+            }
+        }
+    }
+}
+
+
+nav{
+    &.main-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        ul{
+            display: flex;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            li{
+                margin: 0 20px;
+                a{
+                    padding: 53px 0;
+                    display: block;
+                    color: #0D0D0D;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 22px;
+                }
+            }
+        }
+    }
+}

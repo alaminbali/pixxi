@@ -1,0 +1,60 @@
+// testimonails area start
+
+.main-testimonials{
+    display: flex;
+    align-items: center;
+    width: 95%;
+    @media #{$sm-layout} {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    img{
+        margin-right: 50px;
+        @media #{$md-layout} {
+            margin-right: 30px;
+        }
+        @media #{$sm-layout} {
+            margin-bottom: 30px;
+            width: 150px;
+            height: 150px;
+        }
+    }
+    .review-area{
+        p{
+            &.disc{
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 40px;
+                color: #0D0D0D;
+                @media #{$md-layout} {
+                    font-size: 16px;
+                    line-height: 30px;
+                }
+                @media #{$sm-layout} {
+                    font-size: 16px;
+                    line-height: 26px;
+                }
+            }
+        }
+        .full-deg{
+            span{
+                &.name{
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 22px;
+                    letter-spacing: 0.1em;
+                    color: #74787C; 
+                    text-transform: uppercase;
+                }
+                &.degic{
+                    color: #0D0D0D;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 22px;
+                    letter-spacing: 0.1em;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}

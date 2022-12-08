@@ -1,0 +1,123 @@
+// product style hear
+
+.title-btn-area{
+    position: relative;
+    .swiper-pagination{
+        bottom: -6px;
+        width: max-content;
+        right: 51px;
+        left: auto;
+        @media #{$small-mobile} {
+            right: 44px;
+            bottom: -9px;
+        }
+    }
+    .swiper-button-next{
+        top: 94%;
+        right: 0;
+        &::after{
+            content: "\f061";
+            font-family: "Font Awesome 5 Pro";
+            font-size: 16px;
+            color: #1C2539;
+            padding: 10px;
+            background: #fff;
+            box-shadow: 0px 10px 20px rgb(24 16 16 / 6%);
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        &:hover{
+            &::after{
+                background: var(--color-primary);
+                color: #fff;
+            }
+        }
+    }
+    .swiper-button-prev{
+        top: 94%;
+        right: 104px;
+        left: auto;
+        @media #{$small-mobile} {
+            right: 95px;
+        }
+        &:hover{
+            &::after{
+                background: var(--color-primary);
+                color: #fff;
+            }
+        }
+        &::after{
+            content: "\f060";
+            font-family: "Font Awesome 5 Pro";
+            font-size: 16px;
+            color: #1C2539;
+            padding: 10px;
+            background: #fff;
+            box-shadow: 0px 10px 20px #1810100f;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+    }
+}
+
+.portfolio-wrapper-one{
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 13px 31px rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+    height: 100%;
+    @media #{$small-mobile} {
+        padding: 10px;
+    }
+    a.thumbnail{
+        display: block;
+        overflow: hidden;
+        border-radius: 5px;
+        &:hover{
+            img{
+                transform: scale(1);
+            }
+        }
+        img{
+            border-radius: 5px;
+            transition: .5s;
+            transform: scale(1.2);
+            width: 100%;
+        }
+    }
+    .inner{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+        .title{
+            margin-bottom: 5px;
+        }
+        .right{
+            a{
+                i{
+                    padding: 5px;
+                    border: 1px solid #0D0D0D;
+                    border-radius: 50%;
+                    display: block;
+                    width: 50px;
+                    height: 50px;
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #0D0D0D;
+                    transform: rotate(-45deg);
+                    background: #ffff;
+                    cursor: pointer;
+                }
+                &:hover{
+                    i{
+                        border-color: var(--color-primary);
+                        color: #0D0D0D;
+                    }
+                }
+            }
+        }
+    }
+}

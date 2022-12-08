@@ -1,0 +1,130 @@
+// service style hear
+
+.service-one-bg {
+    background-image: url(../images/service/bg-01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+
+
+.single-service {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 40px;
+    @media #{$small-mobile} {
+        padding: 20px;
+    }
+    a {
+        &:hover {
+            i {
+                margin-left: 10px;
+            }
+        }
+
+        i {
+            transition: .3s;
+
+            &::before {
+                content: "\f061";
+                top: 3px;
+                left: 2px;
+                position: relative;
+                transition: .3s;
+            }
+        }
+    }
+
+    .icon {
+        margin-bottom: 33px;
+    }
+
+    .title {
+        margin-bottom: 16px;
+    }
+
+    p {
+        &.disc {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+
+
+.service-shape-one {
+    position: relative;
+    z-index: 1;
+    &::after{
+        position: absolute;
+        right: -4%;
+        top: 10%;
+        content: "";
+        background-image: url(../images/about/shape/01.png);
+        width: 719px;
+        height: 506px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        animation: jump-2 5s linear infinite;
+        z-index: -1;
+        @media #{$large-mobile} {
+            display: none;
+        }
+    }
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    //     flex-direction: column;
+    //     overflow: hidden;
+    //     z-index: 1;
+
+    // &:before,
+    // &:after {
+    //     content: "";
+    //     position: absolute;
+    //     left: 50%;
+    //     min-width: 650vw;
+    //     min-height: 650vw;
+    //     background-color: #FFF6EC;
+    //     animation-name: rotate;
+    //     animation-iteration-count: infinite;
+    //     z-index: -1;
+    //     animation-timing-function: linear;
+    // }
+
+    // &:before {
+    //     bottom: 15vh;
+    //     border-radius: 50%;
+    //     animation-duration: 10s;
+    // }
+
+    // &:after {
+    //     bottom: 12vh;
+    //     opacity: .5;
+    //     border-radius: 49%;
+    //     animation-duration: 10s;
+    // }
+}
+
+
+
+
+
+@keyframes rotate {
+    0% {
+        transform: translate(-50%, 0) rotateZ(0deg);
+    }
+
+    50% {
+        transform: translate(-50%, -2%) rotateZ(180deg);
+    }
+
+    80% {
+        transform: translate(-50%, -1%) rotateZ(360deg);
+    }
+    100% {
+        transform: translate(-50%, 0%) rotateZ(540deg);
+    }
+}
