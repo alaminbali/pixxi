@@ -1,0 +1,68 @@
+// rts cta section style
+
+.cta-main-wrapper{
+    background: #1E1E1E;
+    padding: 100px;
+    border-radius: 15px;
+    box-shadow: 0px 20px 40px #D8DDE1;
+    overflow: hidden;
+    position: relative;
+    .image-thumbnail{
+        position: absolute;
+        right: 60px;
+        bottom: 0;
+    }
+    .content-wrapper{
+        .title{
+            color: #fff;
+        }
+        p{
+            &.disc{
+                color: #74787C;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+            }
+        }
+    }
+}
+
+.contact-area{
+    .call-inner{
+        display: flex;
+        margin-bottom: 35px;
+        align-items: center;
+        .call-area{
+            .icon{
+                margin-right: 20px;
+                svg{
+                    display: block;
+                    height: 65px;
+                    width: 65px;
+                    background: rgba(255, 255, 255, 0);
+                    border-radius: 50%;
+                    padding: 15px;
+                    border: 1px solid rgba(255, 255, 255, 0.05);
+                    overflow: visible;
+                }
+            }
+        }
+        .number{
+            span{
+                display: block;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 22px;
+                color: #74787C;
+                margin-bottom: 10px;
+            }
+            a{
+                color: #FFFFFF;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 27px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
